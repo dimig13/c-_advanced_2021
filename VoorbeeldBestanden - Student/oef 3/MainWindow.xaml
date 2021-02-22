@@ -1,0 +1,17 @@
+﻿<Window x:Class="oef_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:oef_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtresultaat" HorizontalAlignment="Left" Height="211" Margin="92,51,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="594"/>
+        <Button x:Name="btninlezen" Content="Inlezen" HorizontalAlignment="Left" Margin="108,311,0,0" VerticalAlignment="Top" Width="97" Height="25" Click="btninlezen_Click"/>
+        <Button x:Name="btnverwerken" Content="Verwerken" HorizontalAlignment="Left" Margin="266,311,0,0" VerticalAlignment="Top" Width="97" Height="25" Click="btnverwerken_Click" IsEnabled="False"/>
+        <Button x:Name="btnnalezen" Content="Nalezen" HorizontalAlignment="Left" Margin="435,311,0,0" VerticalAlignment="Top" Width="97" Height="25" Click="btnnalezen_Click" IsEnabled="False"/>
+        <Button x:Name="btnsluiten" Content="Sluiten" HorizontalAlignment="Left" Margin="589,311,0,0" VerticalAlignment="Top" Width="97" Height="25" Click="btnsluiten_Click"/>
+
+    </Grid>
+</Window>

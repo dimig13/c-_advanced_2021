@@ -169,6 +169,22 @@ namespace email
 
         private void BtnSluiten_Click(object sender, RoutedEventArgs e)
         {
+            SaveFileDialog sfd = new SaveFileDialog()
+            {
+                Filter = "Alle bestanden (*.*)|*.*|Tekstbestanden (*.text) | *.txt",
+                FilterIndex = 2,
+                Title = "Geef een bestandsnaam op",
+                OverwritePrompt = true,
+                AddExtension = true,
+                DefaultExt = "txt",
+                FileName = "email.txt",
+                InitialDirectory = Environment.CurrentDirectory // onder ..\debug
+            };
+            sfd.ShowDialog();
+
+            //toevoegen aan bestand.
+
+
 
         }
     }
