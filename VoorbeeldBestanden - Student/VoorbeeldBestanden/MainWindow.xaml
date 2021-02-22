@@ -1,0 +1,21 @@
+﻿<Window x:Class="VoorbeeldBestanden.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoorbeeldBestanden"
+        mc:Ignorable="d"
+        Title="Werken met bestanden" Height="450" Width="1216">
+    <Grid>
+        <Button x:Name="BtnStreamWiterReader" Content="StreamWriter/StreamReader" HorizontalAlignment="Left" Margin="774,46,0,0" VerticalAlignment="Top" Width="170" Height="29" Click="BtnStreamWiterReader_Click"/>
+        <Button x:Name="BtnFileStream" Content="FileStream Lezen" HorizontalAlignment="Left" Margin="774,95,0,0" VerticalAlignment="Top" Width="168" Height="29" Click="BtnFileStream_Click"/>
+        <Button x:Name="BtnFileStreamWriter" Content="FileStream Writer" HorizontalAlignment="Left" Margin="774,144,0,0" VerticalAlignment="Top" Width="167" Height="29" Click="BtnFileStreamWriter_Click"/>
+        <Button x:Name="BtnKlasseFile" Content="Klasse File" HorizontalAlignment="Left" Margin="774,196,0,0" VerticalAlignment="Top" Width="165" Height="29" Click="BtnKlasseFile_Click"/>
+        <Button x:Name="BtnWriteAllText" Content="WriteAllText" HorizontalAlignment="Left" Margin="775,253,0,0" VerticalAlignment="Top" Width="164" Height="29" Click="BtnWriteAllText_Click"/>
+        <TextBox x:Name="TxtResultaat" HorizontalAlignment="Left" Height="343" Margin="45,48,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="359" FontFamily="Consolas"/>
+        <ListBox x:Name="LbxNamen" HorizontalAlignment="Left" Height="338" Margin="418,51,0,0" VerticalAlignment="Top" Width="319"/>
+        <Button x:Name="BtnWriteCsv" Content="CSV files" HorizontalAlignment="Left" Height="31" Margin="997,45,0,0" VerticalAlignment="Top" Width="138" Click="BtnWriteCsv_Click"/>
+        <Button x:Name="BtnFixRead" Content="Vaste lengte Write" HorizontalAlignment="Left" Height="30" Margin="997,95,0,0" VerticalAlignment="Top" Width="142" Click="BtnFixRead_Click" />
+
+    </Grid>
+</Window>

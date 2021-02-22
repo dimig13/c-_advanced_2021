@@ -1,0 +1,22 @@
+﻿Bakkar;MBark
+Figen;Eray
+Jamieson;Noah
+Joos;Peter
+Keppens;Brecht
+Kippers;Jeff
+Moonen;Jasper
+Spruyt;Conrad
+Wassen;Gesio
+Zuk;Arkadiusz
+Aksu;Abdulkadir
+Cetin;Olcaytug
+Forier;Simon
+Giannakos;Dimitri
+Joumani;Younes
+Manti;Rafik
+Schoenmakers;Joke
+Tuncay;Yusuf
+Turan;Gencay
+Van Calenberg;Lars
+Vanslambroeck;Benjamin
+Vreys;Nand
