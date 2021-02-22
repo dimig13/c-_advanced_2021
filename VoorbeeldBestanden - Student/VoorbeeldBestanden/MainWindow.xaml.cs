@@ -186,8 +186,9 @@ namespace VoorbeeldBestanden
                     string lijn = sr.ReadLine();
                     string veld1 = lijn.Substring(0, 19).Trim();
                     string veld2 = lijn.Substring(20, 9).Trim();
-                    string veld3 = lijn.Substring(30, 14).Trim();
-                    TxtResultaat.Text += $"{veld2} {veld1} werkt in {veld3}" + Environment.NewLine;
+
+                    TxtResultaat.Text += $"{veld1} {veld2}\n";
+
                 }
 
 
