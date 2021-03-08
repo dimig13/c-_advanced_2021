@@ -1,0 +1,23 @@
+﻿<Window x:Class="woordenboektab.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:woordenboektab"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+ 
+
+    <Grid Height="390" VerticalAlignment="Top">
+        <ListBox x:Name="LbxTermen" FontSize="16" Margin="54,17,0,45" HorizontalAlignment="Left" Width="355" />
+        <TextBlock HorizontalAlignment="Left" Margin="454,56,0,0" TextWrapping="Wrap" Text="Engelse ICT termen" VerticalAlignment="Top" FontSize="12" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Margin="460,132,0,0" TextWrapping="Wrap" Text="Nederlandse ICT termen" VerticalAlignment="Top" FontSize="12" FontStyle="Italic"/>
+        <TextBox x:Name="TxtEngels" HorizontalAlignment="Left" Height="31" Margin="456,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" FontStyle="Normal" FontSize="16"/>
+        <TextBox x:Name="TxtNederlands" HorizontalAlignment="Left" Height="31" Margin="461,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" FontStyle="Normal" FontSize="16"/>
+        <Button x:Name="BtnToevoegen" HorizontalAlignment="Left" Margin="467,233,0,0" VerticalAlignment="Top" Content="Toevoegen" Width="177" FontStyle="Normal" Height="31" FontSize="16" Click="BtnToevoegen_Click"/>
+        <Button x:Name="BtnVerwijderen" Content="Verwijderen" HorizontalAlignment="Left" Margin="466,298,0,0" VerticalAlignment="Top" Width="174" FontStyle="Normal" Height="32" FontSize="16" Click="BtnVerwijderen_Click"/>
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,14 @@
+﻿<Window x:Name="Win2" x:Class="VoorbeeldWindowsWPF.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoorbeeldWindowsWPF"
+        mc:Ignorable="d"
+        Title="Window2" Height="250.728" Width="284.511">
+    <Grid>
+        <Button x:Name="BtnShowHide" Content="SHOW verbergen" HorizontalAlignment="Left" Height="35" Margin="54,45,0,0" VerticalAlignment="Top" Width="161" Click="BtnShowHide_Click"/>
+        <Button x:Name="BtnShowDialogHide" Content="SHOWDIALOG verbergen" HorizontalAlignment="Left" Height="38" Margin="53,111,0,0" VerticalAlignment="Top" Width="162" Click="BtnShowDialogHide_Click"/>
+
+    </Grid>
+</Window>

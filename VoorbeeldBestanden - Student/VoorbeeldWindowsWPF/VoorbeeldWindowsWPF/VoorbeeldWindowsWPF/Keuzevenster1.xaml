@@ -1,0 +1,25 @@
+﻿<Window x:Class="VoorbeeldWindowsWPF.Keuzevenster1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoorbeeldWindowsWPF"
+        mc:Ignorable="d"
+        Title="Keuzevenster1" Height="374.22" Width="405.198" FontSize="16">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="144" Margin="74,39,0,0" VerticalAlignment="Top" Width="245">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC9B8B8" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <TextBlock TextWrapping="Wrap" Text="Keuze" Margin="10,15,0,0" FontWeight="Bold"/>
+            <RadioButton x:Name="radUpper" Content="Upper case" Margin="10,15,0,0"/>
+            <RadioButton x:Name="radLower" Content="Lower case" Margin="10,15,0,0"/>
+        </StackPanel>
+        <Button x:Name="BtnOk" Content="Ok" HorizontalAlignment="Left" Height="33" Margin="76,236,0,0" VerticalAlignment="Top" Width="112" Click="BtnOk_Click"/>
+        <Button x:Name="BtnCancel" Content="Cancel" HorizontalAlignment="Left" Height="33" Margin="201,236,0,0" VerticalAlignment="Top" Width="121" Click="BtnCancel_Click"/>
+
+    </Grid>
+</Window>

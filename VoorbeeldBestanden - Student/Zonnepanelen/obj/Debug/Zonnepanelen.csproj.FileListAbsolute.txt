@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\Zonnepanelen_MarkupCompile.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\Zonnepanelen_MarkupCompile.lref
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\bin\Debug\Zonnepanelen.exe.config
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\bin\Debug\Zonnepanelen.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\bin\Debug\Zonnepanelen.pdb
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\Zonnepanelen.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\MainWindow.baml
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\Zonnepanelen.g.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\Zonnepanelen.Properties.Resources.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\Zonnepanelen.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\Zonnepanelen.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\Zonnepanelen.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Zonnepanelen\obj\Debug\Zonnepanelen.pdb

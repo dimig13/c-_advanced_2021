@@ -83,18 +83,19 @@ namespace VoorbeeldBestanden
                     {
                         string naam = string.Empty;
 
-                        //schrijven en lezen per regel.
-                        while (!sr.EndOfStream)
-                        {
-                            naam = sr.ReadLine();
-                            sw.WriteLine(naam);
-                            LbxNamen.Items.Add(naam);
+                        //            schrijven en lezen per regel.
+                                        while (!sr.EndOfStream)
+                                    {
+                                        naam = sr.ReadLine();
+
+                                        LbxNamen.Items.Add(naam);
+                                    }
+
+                                }
+                            }
                         }
 
                     }
-                }
-            }
-        }
 
         private void BtnKlasseFile_Click(object sender, RoutedEventArgs e)
         {
@@ -141,17 +142,25 @@ namespace VoorbeeldBestanden
 
             if (!File.Exists(pad))
             {
-                string lijn = $"OPLEIDINGSONDERDEEL: C# ADVANCED \n";
-                File.WriteAllText(pad, lijn);
+                using(StreamWriter sw = new StreamWriter(pad))
+                {
+                    sw.WriteLine("Klas: 1PRO A+B - dagopleiding ");
+                    sw.WriteLine("Klas: 1PRO C+D - dagopleiding ");
+                    sw.WriteLine("Klas: 1PRO E+F - dagopleiding ");
+                    sw.WriteLine("Klas: 1PRO G+H - dagopleiding ");
+                    sw.WriteLine("Klas: 1PRW A+B - avondopleiding");
+                }
+                //string lijn = $"OPLEIDINGSONDERDEEL: C# ADVANCED \n";
+                //File.WriteAllText(pad, lijn);
 
-                // vermits je met file maar 1x een writealltext kan gebruiken moet je de daaropvol
+                //// vermits je met file maar 1x een writealltext kan gebruiken moet je de daaropvol
 
-                File.AppendAllText(pad, "Klas: 1PRO A+B - dagopleiding  \n");
-                File.AppendAllText(pad, "Klas: 1PRO C+D - dagopleiding  \n");
-                File.AppendAllText(pad, "Klas: 1PRO E+F - dagopleiding  \n");
-                File.AppendAllText(pad, "Klas: 1PRO G+H - dagopleiding  \n");
-                File.AppendAllText(pad, "\n");
-                File.AppendAllText(pad, "Klas: 1PRW A+B - avondopleiding  \n");
+                //File.AppendAllText(pad, "Klas: 1PRO A+B - dagopleiding  \n");
+                //File.AppendAllText(pad, "Klas: 1PRO C+D - dagopleiding  \n");
+                //File.AppendAllText(pad, "Klas: 1PRO E+F - dagopleiding  \n");
+                //File.AppendAllText(pad, "Klas: 1PRO G+H - dagopleiding  \n");
+                //File.AppendAllText(pad, "\n");
+                //File.AppendAllText(pad, "Klas: 1PRW A+B - avondopleiding  \n");
             }
 
             //Bestand openen.

@@ -66,7 +66,7 @@ namespace oef_3
                         veld3 = lijn.Substring(40, 1); //geslacht
                         veld4 = lijn.Substring(48, 6).Trim(); //punten
 
-                        sb.Append($"{veld1,-21}{veld2,-21}{veld3,-5}{veld4,-9}").AppendLine();
+                        sb.Append($"{veld1, -22}{veld2,10}{veld3,5}{veld4,10}").AppendLine();
 
                         //velden 1 en 4 in DICTIONARY
                         dicGeg.Add(veld1, veld4);
@@ -105,7 +105,7 @@ namespace oef_3
             using(StreamWriter sw = File.CreateText(sfd.FileName))
             {
                 //gegevens wegschrijven 
-                foreach(var item in dicGeg)
+                foreach (var item in dicGeg)
                 {
                     //rechts opvullen met nullen.
                     sb.Append($"{item.Key,-24}");
@@ -114,18 +114,29 @@ namespace oef_3
                     resultaat = float.Parse(item.Value.Substring(0, 3)) / float.Parse(item.Value.Substring(3, 3));
                     sb.Append($"{resultaat,-10:p}");
 
-                    //geslaagd of niet geslaagd.
-                    sb.Append((resultaat >= 0.85) ? $"{"geslaagd",-20}" : $"{"niet geslaagd",-20}").AppendLine();
+                    if (resultaat >= 0.85)
+                    {
+                        sb.Append($"{"Geslaagd",-20}").AppendLine();
+                    }
+                    else
+                    {
+                        sb.Append($"{"niet geslaagd",-20}").AppendLine();
+                    }
+
+                    ////geslaagd of niet geslaagd.
+                    //sb.Append((resultaat >= 0.85) ? $"{"geslaagd",-20}" : $"{"niet geslaagd",-20}").AppendLine();
                 }
 
                 //Gegevens wegschrijven.
                 sw.WriteLine(sb);
             }
+            btnnalezen.IsEnabled = true;
 
         }
 
         private void btnnalezen_Click(object sender, RoutedEventArgs e)
         {
+           
             OpenFileDialog ofd = new OpenFileDialog()
             {
                 Filter = "Alle bestanden (*.*)|*.*|Tekstbestanden (*.txt) |*.txt",
@@ -143,7 +154,7 @@ namespace oef_3
             }
             else
             {
-                MessageBox.Show("De resuktaten zij niet verwerkt", "Resultaten", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("De resultaten zij niet verwerkt", "Resultaten", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 

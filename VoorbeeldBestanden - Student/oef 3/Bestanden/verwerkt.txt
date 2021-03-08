@@ -15,14 +15,14 @@ Mariman Dennis          80,00%    niet geslaagd
 Meulebroeks Jeremy      80,00%    niet geslaagd       
 Paggen Raphaël          75,00%    niet geslaagd       
 Sagdeeva Dinara         75,00%    niet geslaagd       
-Schils Jan              95,00%    geslaagd            
-Schrooten Liesbet       85,00%    geslaagd            
+Schils Jan              95,00%    Geslaagd            
+Schrooten Liesbet       85,00%    Geslaagd            
 Simons Bart             75,00%    niet geslaagd       
 Seilleur Gwen           75,00%    niet geslaagd       
 Toelen Thomas           75,00%    niet geslaagd       
 Van Acker Rudi          75,00%    niet geslaagd       
 Van Mulken Piet         75,00%    niet geslaagd       
-Vekemans Sander         100,00%   geslaagd            
-Vrancken Isabelle       85,00%    geslaagd            
-Vos Gert                98,00%    geslaagd            
+Vekemans Sander         100,00%   Geslaagd            
+Vrancken Isabelle       85,00%    Geslaagd            
+Vos Gert                98,00%    Geslaagd            
 

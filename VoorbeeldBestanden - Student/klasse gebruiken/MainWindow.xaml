@@ -1,0 +1,21 @@
+﻿<Window x:Class="klasse_gebruiken.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:klasse_gebruiken"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="945.197">
+    <Grid>
+        <Label Content="Voornaam" HorizontalAlignment="Left" Margin="59,51,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtvoornaam" HorizontalAlignment="Left" Height="23" Margin="59,82,0,0" TextWrapping="Wrap" Text="Ann" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnleeg" Content="Toon constructor(leeg)" HorizontalAlignment="Left" Margin="63,146,0,0" VerticalAlignment="Top" Width="130" Height="26" Click="btnleeg_Click"/>
+        <Label Content="Naam" HorizontalAlignment="Left" Height="26" Margin="258,51,0,0" VerticalAlignment="Top" Width="87"/>
+        <TextBox x:Name="txtnaam" HorizontalAlignment="Left" Height="23" Margin="258,82,0,0" TextWrapping="Wrap" Text="Das" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnparameter" Content="Toon constructor(parameters)" HorizontalAlignment="Left" Margin="258,146,0,0" VerticalAlignment="Top" Width="174" Height="26" Click="btnparameter_Click"/>
+        <TextBox x:Name="txtresultaat" HorizontalAlignment="Left" Height="121" Margin="74,257,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="325"/>
+        <Button x:Name="btnpersoon" Content="Persoon" HorizontalAlignment="Left" Margin="631,96,0,0" VerticalAlignment="Top" Width="148" Height="34" Click="btnpersoon_Click"/>
+        <Button x:Name="btnverjaardag" Content="Verjaardag" HorizontalAlignment="Left" Margin="631,202,0,0" VerticalAlignment="Top" Width="148" Height="34"/>
+
+    </Grid>
+</Window>

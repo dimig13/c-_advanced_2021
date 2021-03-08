@@ -1,0 +1,19 @@
+﻿<Window x:Class="VoorbeeldWindowsWPF.Hoofdvenster1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VoorbeeldWindowsWPF"
+        mc:Ignorable="d"
+        Title="Hoofdvenster1" Height="295.634" Width="495.946" FontSize="16">
+    <Grid>
+        <TextBox x:Name="TxtResultaat" HorizontalAlignment="Left" Height="36" Margin="86,50,0,0" TextWrapping="Wrap" Text="Standaardtekst in TxtResultaat wijzigen " VerticalAlignment="Top" Width="310" FontSize="14"/>
+        <Button x:Name="BtnWijzigen" Content="Hoofdletter / kleine letter wijzigen" HorizontalAlignment="Left" Height="38" Margin="86,134,0,0" VerticalAlignment="Top" Width="308" Click="BtnWijzigen_Click"/>
+        <Button x:Name="BtnInfo" Margin="-1,219,-2,2" Click="BtnInfo_Click">
+            <StackPanel Orientation="Horizontal" >
+                <Image  Source="Afbeelding/info3.png" Height="15" Width="17" />
+                <TextBlock Margin="8,0,0,0">Info</TextBlock>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

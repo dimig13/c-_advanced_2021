@@ -180,7 +180,7 @@ namespace email
                 FileName = "email.txt",
                 InitialDirectory = Environment.CurrentDirectory // onder ..\debug
             };
-            sfd.ShowDialog();
+            sfd.ShowDialog(); 
 
             //toevoegen aan bestand.
 
