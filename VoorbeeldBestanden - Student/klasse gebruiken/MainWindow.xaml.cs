@@ -67,5 +67,21 @@ namespace klasse_gebruiken
             //Functie van klasse oproepen.
             txtresultaat.Text += $"\n\n Naam van gebruiker: {naam.ToonNaam()}";
         }
+
+        private void btnverjaardag_Click(object sender, RoutedEventArgs e)
+        {
+            //lege constructor.
+            verjaardag verj = new verjaardag
+            {
+                IsFeest = true,
+                AantalCadeaus = 2,
+                Mijnboodschap = "Dimitri"
+            };
+            MessageBox.Show(verj.Mijnboodschap);
+
+            // constructor met parameters.
+            verj = new verjaardag(txtvoornaam.Text, DateTime.Parse("1999-05-30"));
+            MessageBox.Show(verj.Mijnboodschap, txtvoornaam.Text + " " + txtnaam.Text);
+        }
     }
 }

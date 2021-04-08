@@ -17,7 +17,7 @@
         <Menu HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="792" FontSize="16">
             <MenuItem Header="Bestand">
                 <MenuItem x:Name="MnuZoekvenster" Header="Naar zoekvenster" Click="MnuZoekvenster_Click" FontSize="16" />
-                <MenuItem x:Name="MnuToevoegen" Header="Toevoegen" Click="MnuToevoegen_Click"/>
+                <MenuItem x:Name="MnuToevoegen" Header="Toevoegen"/>
                 <Separator/>
                 <MenuItem x:Name="MnuAfsluiten" Header="Afsluiten" Click="MnuAfsluiten_Click"/>
             </MenuItem>

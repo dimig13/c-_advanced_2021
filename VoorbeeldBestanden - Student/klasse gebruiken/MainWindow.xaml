@@ -15,7 +15,7 @@
         <Button x:Name="btnparameter" Content="Toon constructor(parameters)" HorizontalAlignment="Left" Margin="258,146,0,0" VerticalAlignment="Top" Width="174" Height="26" Click="btnparameter_Click"/>
         <TextBox x:Name="txtresultaat" HorizontalAlignment="Left" Height="121" Margin="74,257,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="325"/>
         <Button x:Name="btnpersoon" Content="Persoon" HorizontalAlignment="Left" Margin="631,96,0,0" VerticalAlignment="Top" Width="148" Height="34" Click="btnpersoon_Click"/>
-        <Button x:Name="btnverjaardag" Content="Verjaardag" HorizontalAlignment="Left" Margin="631,202,0,0" VerticalAlignment="Top" Width="148" Height="34"/>
+        <Button x:Name="btnverjaardag" Content="Verjaardag" HorizontalAlignment="Left" Margin="631,202,0,0" VerticalAlignment="Top" Width="148" Height="34" Click="btnverjaardag_Click"/>
 
     </Grid>
 </Window>

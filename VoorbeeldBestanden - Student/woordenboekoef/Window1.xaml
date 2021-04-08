@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:woordenboekoef"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800" WindowState="Maximized" Loaded="Window_Loaded">
+        Title="Window1" Height="450" Width="800" WindowState="Maximized">
     <Grid  >
         <Menu HorizontalAlignment="Left" Width="616" FontSize="18" Margin="0,0,-5,0" Height="32" VerticalAlignment="Top" >
             <MenuItem Header="Bestand">

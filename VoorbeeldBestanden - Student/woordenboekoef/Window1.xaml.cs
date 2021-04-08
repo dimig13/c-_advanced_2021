@@ -62,9 +62,6 @@ namespace woordenboekoef
             TxtEngels.Clear();
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            
-        }
+        
     }
 }

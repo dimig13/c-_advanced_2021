@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\Klassepersoneel.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\Klassepersoneel_MarkupCompile.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\Klassepersoneel_MarkupCompile.lref
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\bin\Debug\Klassepersoneel.exe.config
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\bin\Debug\Klassepersoneel.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\bin\Debug\Klassepersoneel.pdb
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\MainWindow.baml
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\Klassepersoneel.g.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\Klassepersoneel.Properties.Resources.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\Klassepersoneel.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\Klassepersoneel.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\Klassepersoneel.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Klassepersoneel\obj\Debug\Klassepersoneel.pdb

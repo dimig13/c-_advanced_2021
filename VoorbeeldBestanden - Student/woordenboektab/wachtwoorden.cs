@@ -9,7 +9,7 @@ namespace woordenboektab
 {
    public static class Wachtwoorden
     {
-        public static string user;
+        public static string user = null;
 
         public static Dictionary<string, string> dicusers = new Dictionary<string, string>()
         {

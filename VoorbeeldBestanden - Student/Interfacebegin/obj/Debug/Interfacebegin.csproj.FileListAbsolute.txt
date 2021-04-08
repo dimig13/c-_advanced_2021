@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\Interfacebegin.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\Interfacebegin_MarkupCompile.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\Interfacebegin_MarkupCompile.lref
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\bin\Debug\Interfacebegin.exe.config
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\bin\Debug\Interfacebegin.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\bin\Debug\Interfacebegin.pdb
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\MainWindow.baml
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\Interfacebegin.g.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\Interfacebegin.Properties.Resources.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\Interfacebegin.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\Interfacebegin.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\Interfacebegin.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interfacebegin\obj\Debug\Interfacebegin.pdb

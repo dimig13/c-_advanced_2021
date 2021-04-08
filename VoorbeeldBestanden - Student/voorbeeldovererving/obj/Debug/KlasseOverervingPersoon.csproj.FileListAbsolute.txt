@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\KlasseOverervingPersoon.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\voorbeeldovererving_MarkupCompile.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\voorbeeldovererving_MarkupCompile.lref
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\bin\Debug\voorbeeldovererving.exe.config
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\bin\Debug\voorbeeldovererving.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\bin\Debug\voorbeeldovererving.pdb
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\MainWindow.baml
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\voorbeeldovererving.g.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\voorbeeldovererving.Properties.Resources.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\KlasseOverervingPersoon.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\KlasseOverervingPersoon.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\voorbeeldovererving.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\voorbeeldovererving\obj\Debug\voorbeeldovererving.pdb

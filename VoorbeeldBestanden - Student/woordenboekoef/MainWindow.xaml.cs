@@ -30,7 +30,7 @@ namespace woordenboekoef
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             string[] velden;
-            string bestand = @"....\Bestanden\ICTWoordenboek.txt";
+            string bestand = @"..\..\Bestanden\woordenboek.txt";
             if (File.Exists(bestand))
             {
                 using (StreamReader sr = File.OpenText(bestand))
@@ -86,10 +86,7 @@ namespace woordenboekoef
             Close();
         }
 
-        private void MnuToevoegen_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+    
 
         private void MnuZoekvenster_Click(object sender, RoutedEventArgs e)
         {
