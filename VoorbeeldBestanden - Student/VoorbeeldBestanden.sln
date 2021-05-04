@@ -31,6 +31,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfacebegin", "Interface
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface Bankrekening", "Interface Bankrekening\Interface Bankrekening.csproj", "{99A9F910-57CE-4495-A44F-4C3FB2DD8575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGrid_toep23", "DataGrid_toep23\DataGrid_toep23.csproj", "{74095753-647D-4037-AA37-5B93C6B8EF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "toep_23CURSUS", "toep_23\toep_23CURSUS.csproj", "{C839BEDD-2E1C-42EC-8BA0-BF1237FC2176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatasetAuto_toep24", "DatasetAuto_toep24\DatasetAuto_toep24.csproj", "{821A4776-98C0-4880-96F8-2CCC52E47D39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +99,18 @@ Global
 		{99A9F910-57CE-4495-A44F-4C3FB2DD8575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99A9F910-57CE-4495-A44F-4C3FB2DD8575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99A9F910-57CE-4495-A44F-4C3FB2DD8575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74095753-647D-4037-AA37-5B93C6B8EF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74095753-647D-4037-AA37-5B93C6B8EF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74095753-647D-4037-AA37-5B93C6B8EF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74095753-647D-4037-AA37-5B93C6B8EF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C839BEDD-2E1C-42EC-8BA0-BF1237FC2176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C839BEDD-2E1C-42EC-8BA0-BF1237FC2176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C839BEDD-2E1C-42EC-8BA0-BF1237FC2176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C839BEDD-2E1C-42EC-8BA0-BF1237FC2176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821A4776-98C0-4880-96F8-2CCC52E47D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821A4776-98C0-4880-96F8-2CCC52E47D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821A4776-98C0-4880-96F8-2CCC52E47D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821A4776-98C0-4880-96F8-2CCC52E47D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

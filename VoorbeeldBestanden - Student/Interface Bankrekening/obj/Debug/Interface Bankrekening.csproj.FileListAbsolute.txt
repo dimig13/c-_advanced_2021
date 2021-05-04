@@ -1,7 +1,6 @@
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interface Bankrekening\bin\Debug\Interface Bankrekening.exe.config
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interface Bankrekening\bin\Debug\Interface Bankrekening.exe
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interface Bankrekening\bin\Debug\Interface Bankrekening.pdb
-C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interface Bankrekening\obj\Debug\Interface Bankrekening.csprojAssemblyReference.cache
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interface Bankrekening\obj\Debug\MainWindow.g.cs
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interface Bankrekening\obj\Debug\App.g.cs
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\Interface Bankrekening\obj\Debug\Interface Bankrekening_MarkupCompile.cache

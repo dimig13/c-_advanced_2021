@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-
+using System.Windows;
 
 namespace sportkamp
 {
@@ -13,15 +13,18 @@ namespace sportkamp
         
         public static string[,] InlezenKamp()
         {
-            string[,] spkamp = new string[7, 3];
-            string[] velden;
-            int i = 0;
+           
             //string pad = System.IO.Path.GetFullPath(@"..\..\Tekstbestanden");
             //string bestand = System.IO.Path.Combine(pad, "Sporten.txt");
 
             string bestand = @"..\..\Tekstbestanden\Sporten.txt";
 
             int aantal = File.ReadAllLines(bestand).Length;
+
+            string[,] spkamp = new string[aantal, 3];
+            string[] velden;
+            int i = 0;
+
 
             if (File.Exists(bestand))
             {
@@ -39,10 +42,10 @@ namespace sportkamp
             }
             else
             {
-               
+                MessageBox.Show("Kan bestand Sporten.txt niet vinden", "Foutmelding");
             }
             return spkamp;
-          
+
         }
 
     }

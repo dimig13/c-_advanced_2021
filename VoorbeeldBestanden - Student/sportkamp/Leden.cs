@@ -60,7 +60,7 @@ namespace sportkamp
         }
 
         //METHODS
-        public string InformatieVolledig() => $"{NaamVolledig,-25}{SportNaam,-15}" +
+        public string InformatieVolledig() => $"{NaamVolledig,-35}{SportNaam,-15}" +
             $"{Kampprijs:c} - {Kampvolgnr} - {TeBetalen:c}";
 
         //Gebruikt bij wegschrijven naar tekstbestand.

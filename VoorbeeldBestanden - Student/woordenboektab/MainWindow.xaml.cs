@@ -28,167 +28,152 @@ namespace woordenboektab
             InitializeComponent();
         }
 
-        private bool wijzigingen = false;
-        private Random rnd = new Random();
-        private int randomIndex = -1;
-
-        private List<string> ictEngels = new List<string>();
-        private List<string> ictNederlands = new List<string>();
+        // Declaratie
+        private int index;
+        private Random willekeurig = new Random();
+        private List<string> ICTEngels = new List<string>();
+        private List<string> ICTNed = new List<string>();
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            TabZoeken.IsEnabled = false;
-            TextBlockUser.Text += Wachtwoorden.user;
+            // User in statusbalk afdrukken.
+            TextBlockUser.Text = $"Gebruiker: {Wachtwoorden.user}";
 
-            string bestand = @"..\..\Teksten\ICTTermen.txt";
-            FileInfo fi = new FileInfo(bestand);
-            if (fi.Exists)
+            // ===== BESTAND INLADEN =====
+            string[] velden;
+            string pad = @"..\..\bestanden\ICTTermen.txt";
+            if (File.Exists(pad))
             {
-                using (StreamReader sr = fi.OpenText())
+                using (StreamReader sr = File.OpenText(pad))
                 {
                     while (!sr.EndOfStream)
                     {
-                        string[] velden = sr.ReadLine().Split('|');
-                        ictEngels.Add(velden[0]);
-                        ictNederlands.Add(velden[1]);
+                        velden = sr.ReadLine().Split('|');
+
+                        ICTEngels.Add(velden[0]);
+                        ICTNed.Add(velden[1]);
                         LbxTermen.Items.Add($"{velden[0]} - {velden[1]}");
                     }
                 }
             }
-
-            // ==== TIMER INSTALLEREN ===== 
-            // Tijd al tonen op voorhand en niet pas na 1 seconde.
-            DispatcherTimer_Tick(sender, e);
-
+            else
+            {
+                MessageBox.Show("Bestand bestaat niet", "Foutmelding",
+               MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            // ==== TIMER INSTALLEREN =====
             // Installeren van timer dmv de klasse aan te spreken.
             DispatcherTimer wekker = new DispatcherTimer();
             // Timer laten aflopen om de seconde.
-            wekker.Tick += DispatcherTimer_Tick;
+            wekker.Tick += new EventHandler(DispatcherTimer_Tick);
             wekker.Interval = new TimeSpan(0, 0, 1); //uren, minuten, seconden
-            // Timer laten starten
+                                                     // Timer laten starten
             wekker.Start();
-        }
+            // TIJD instellen.
+            TextBlockDatumTijd.Text = $"{DateTime.Now.ToLongDateString()} { DateTime.Now.ToLongTimeString()} ";
 
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            string bestand = @"..\..\Teksten\ICTTermen.txt";
-            FileInfo fi = new FileInfo(bestand);
-            // Enkel als het bestand bestaat en er iets gewijzigd is pas wegschrijven.
-            if (fi.Exists && wijzigingen == true)
-            {
-                using (StreamWriter sw = fi.CreateText())
-                {
-                    for (int i = 0; i < ictEngels.Count; i++)
-                    {
-                        sw.WriteLine($"{ictEngels[i]}|{ictNederlands[i]}");
-                    }
-                }
-                MessageBox.Show("Bestand werd bijgewerkt!",
-                    "Info afsluiten",
-                    MessageBoxButton.OK,
-                    MessageBoxImage.Information);
-            }
-            // App volledig afsluiten, ook alle andere windows.
-            Environment.Exit(0);
         }
-
         private void DispatcherTimer_Tick(object sender, EventArgs e)
         {
-            TextBlockDatumTijd.Text = $"{DateTime.Now.ToLongDateString()} {DateTime.Now.ToLongTimeString()}";
+            TextBlockDatumTijd.Text = $"{DateTime.Now.ToLongDateString()} { DateTime.Now.ToLongTimeString()} ";
+
         }
-
-        private void BtnToevoegen_Click(object sender, RoutedEventArgs e)
+        private void Window_Closing(object sender,
+      System.ComponentModel.CancelEventArgs e)
         {
-            string engels = TxtEngels1.Text;
-            string nederlands = TxtNederlands1.Text;
-            // Controleer of beide TextBoxes zijn ingevuld.
-            if (engels.Length == 0 || nederlands.Length == 0)
+            string pad = @"..\..\bestanden\ICTTermen.txt";
+            if (File.Exists(pad))
             {
-                MessageBox.Show("Voer zowel een Engels als Nederlands woord in om toe te voegen.");
-                return;
-            }
-
-            // We voegen de vertaling toe aan beide List's en gecombineerd aan de ListBox.
-            ictEngels.Add(engels);
-            ictNederlands.Add(nederlands);
-            LbxTermen.Items.Add($"{engels} - {nederlands}");
-            // We houden bij of er wijzigingen zijn gebeurd.
-            wijzigingen = true;
-
-            // Maak de TextBoxes leeg en zet de focus op TxtEngels.
-            TxtEngels1.Clear();
-            TxtNederlands1.Clear();
-            TxtEngels1.Focus();
-        }
-
-        private void BtnVerwijderen_Click(object sender, RoutedEventArgs e)
-        {
-            // Als er geen item geselecteerd is, kan je het niet verwijderen.
-            if (LbxTermen.SelectedIndex == -1)
-            {
-                MessageBox.Show("Selecteer een item om te verwijderen.");
-                return;
-            }
-            // Er is een item geselecteerd. 
-            // We verwijderen dit uit beide List's en uit de ListBox.
-            ictEngels.RemoveAt(LbxTermen.SelectedIndex);
-            ictNederlands.RemoveAt(LbxTermen.SelectedIndex);
-            LbxTermen.Items.Remove(LbxTermen.SelectedItem);
-            // We houden bij of er wijzigingen zijn gebeurd.
-            wijzigingen = true;
-        }
-
-        private void BtnZoeken_Click(object sender, RoutedEventArgs e)
-        {
-            int bovengrensExclusief = ictEngels.Count;
-            if (bovengrensExclusief == 0)
-            {
-                MessageBox.Show("Er staan geen woorden in de woordenlijst!");
-                return;
-            }
-            randomIndex = rnd.Next(bovengrensExclusief);
-
-            TxtEngels2.Text = ictEngels[randomIndex];
-        }
-
-        private void BtnControle_Click(object sender, RoutedEventArgs e)
-        {
-            if (ictEngels.Count == 0)
-            {
-                MessageBox.Show("Er staan geen woorden in de woordenlijst!");
-                return;
-            }
-            // We verwaarlozen hoofdlettergevoeligheid (ToLower()) en witruimtes (Trim())
-            string ingegeven = TxtNederlands2.Text.ToLower().Trim();
-            string verwacht = ictNederlands[randomIndex].ToLower().Trim();
-            if (ingegeven.Equals(verwacht))
-            {
-                MessageBox.Show("De vertaling is goed", "Prima vertaling");
+                // Creëert een bestand om naar te schrijven. 
+                using (StreamWriter sw = File.CreateText(pad))
+                {
+                    for (int i = 0; i < ICTEngels.Count; i++)
+                    {
+                        sw.WriteLine($"{ICTEngels[i]}|{ICTNed[i]}");
+                    }
+                }
             }
             else
             {
-                MessageBox.Show($"De vertaling is verkeerd.\r\nHet juiste antwoord was {verwacht.ToUpper()}",
-                    "Fout",
-                    MessageBoxButton.OK,
-                    MessageBoxImage.Warning);
+                MessageBox.Show("Bestand bestaat niet","Foutmelding",MessageBoxButton.OK,MessageBoxImage.Error);
+            }
+            // Sluit alle vensters
+            Environment.Exit(0);
+        }
+        private void BtnVerwijderen_Click(object sender, RoutedEventArgs e)
+        {
+            // woord verwijderen uit List ICTEngels en List ICTNed
+            if (LbxTermen.SelectedIndex != -1)
+            {
+                ICTEngels.RemoveAt(LbxTermen.SelectedIndex);
+                ICTNed.RemoveAt(LbxTermen.SelectedIndex);
+                // woord verwijderen uit listbox.
+                LbxTermen.Items.Remove(LbxTermen.SelectedItem);
+            }
+            else
+            {
+                MessageBox.Show("Selecteer eerst item om te verwijderen.");
             }
         }
-
+        private void BtnControle_Click(object sender, RoutedEventArgs e)
+        {
+            if (!string.Equals(TxtNedTerm.Text, ICTNed[index]))
+            {
+                MessageBox.Show($"De vertaling is verkeerd ({ICTNed[index]})", "Fout"
+                , MessageBoxButton.OK, MessageBoxImage.Warning);
+                TxtNederlands.Focus();
+                TxtNederlands.SelectAll();
+            }
+            else
+            {
+                MessageBox.Show($"De vertaling is goed ({ICTNed[index]})", "Prima vertaling"
+                , MessageBoxButton.OK);
+            }
+        }
+        private void TabControl_SelectionChanged(object sender,
+       System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            if (TbcWoordenboek.SelectedIndex == 1)
+            {
+                TxtEngTerm.Clear();
+                TxtNedTerm.Clear();
+            }
+        }
         private void MnuToevoegen_Click(object sender, RoutedEventArgs e)
         {
-            TabZoeken.IsEnabled = true;
+            // Focus plaatsen op tweede tabblad.
+            TbcWoordenboek.SelectedIndex = 0;
+            TxtEngels.Focus();
         }
-
         private void MnuSluiten_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
-
-        private void MnuOver_Click(object sender, RoutedEventArgs e)
+        private void BtnZoeken_Click(object sender, RoutedEventArgs e)
         {
-            infowindow = new InfoWindow();
-            info.ShowDialog();
+            index = willekeurig.Next(0, ICTEngels.Count);
+            TxtEngTerm.Text = ICTEngels[index];
+            TxtNedTerm.Clear();
         }
+        private void BtnToevoegen_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrEmpty(TxtEngels.Text) ||
+           string.IsNullOrEmpty(TxtNederlands.Text))
+            {
+                MessageBox.Show("Alle gegevens invullen aub", "Ontbrekende gegevens");
+            }
+            else
+            {
+                ICTEngels.Add(TxtEngels.Text);
+                ICTNed.Add(TxtNederlands.Text);
+                LbxTermen.Items.Add($"{TxtEngels.Text} - {TxtNederlands.Text}");
+            }
+            TxtEngTerm.Clear();
+            TxtNedTerm.Clear();
+            TxtEngTerm.Focus();
+        }
+
+
     }
 }
     

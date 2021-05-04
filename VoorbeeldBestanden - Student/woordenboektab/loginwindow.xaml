@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel  Width="438" Height="328" >
+            <TextBlock x:Name="TextBlockUser" Text="Gebruikersnaam: " FontSize="28" FontFamily="Tempus Sans ITC"/>
+            <TextBox x:Name="TxtUser"  FontSize="32" FontFamily="Tempus Sans ITC" Margin="0,15,0,0" HorizontalContentAlignment="Center" Text="Patricia Briers"/>
+            <TextBlock x:Name="TextBlockPassword" Text="Wachtwoord: " FontSize="28" FontFamily="Tempus Sans ITC" Margin="0,15,0,0"/>
+            <Button DockPanel.Dock="Bottom" Content="Ok" Height="33"  Width="130" FontSize="16" Margin="0,50,0,0"  Click="BtnOk_Click" IsDefault="True"/>
+        </StackPanel>
     </Grid>
 </Window>

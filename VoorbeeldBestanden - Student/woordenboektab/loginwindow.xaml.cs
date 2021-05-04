@@ -23,5 +23,10 @@ namespace woordenboektab
         {
             InitializeComponent();
         }
+
+        private void BtnOk_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

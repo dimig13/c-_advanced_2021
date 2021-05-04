@@ -1,4 +1,3 @@
-C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\toep17AbstracteKLasse\obj\Debug\toep17AbstracteKLasse.csprojAssemblyReference.cache
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\toep17AbstracteKLasse\obj\Debug\MainWindow.g.cs
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\toep17AbstracteKLasse\obj\Debug\App.g.cs
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\toep17AbstracteKLasse\obj\Debug\toep17AbstracteKLasse_MarkupCompile.cache

@@ -138,11 +138,11 @@ namespace VoorbeeldBestanden
 
         private void BtnWriteAllText_Click(object sender, RoutedEventArgs e)
         {
-            string pad = @"..\..\Bestanden\Namenfile.txt";
+            string pad = @"..\..\Bestanden\TestNamenfile.txt";
 
             if (!File.Exists(pad))
             {
-                using(StreamWriter sw = new StreamWriter(pad))
+                using (StreamWriter sw = new StreamWriter(pad))
                 {
                     sw.WriteLine("Klas: 1PRO A+B - dagopleiding ");
                     sw.WriteLine("Klas: 1PRO C+D - dagopleiding ");
@@ -150,6 +150,10 @@ namespace VoorbeeldBestanden
                     sw.WriteLine("Klas: 1PRO G+H - dagopleiding ");
                     sw.WriteLine("Klas: 1PRW A+B - avondopleiding");
                 }
+
+
+
+                // of je gebruikt dit en dan heb je geen streamwriter nodig.
                 //string lijn = $"OPLEIDINGSONDERDEEL: C# ADVANCED \n";
                 //File.WriteAllText(pad, lijn);
 

@@ -1,0 +1,7 @@
+OPLEIDINGSONDERDEEL: C# ADVANCED 
+Klas: 1PRO A+B - dagopleiding  
+Klas: 1PRO C+D - dagopleiding  
+Klas: 1PRO E+F - dagopleiding  
+Klas: 1PRO G+H - dagopleiding  
+
+Klas: 1PRW A+B - avondopleiding  

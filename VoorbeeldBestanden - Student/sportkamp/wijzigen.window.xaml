@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="wijzigen" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="LbxLeden" HorizontalAlignment="Left" Height="376" Margin="25,22,0,0" VerticalAlignment="Top" Width="671" FontFamily="Consolas" MouseLeftButtonUp="LbxLeden_MouseLeftButtonUp"/>
+        <ListBox x:Name="LbxLeden" HorizontalAlignment="Left" Height="376" Margin="25,22,0,0" VerticalAlignment="Top" Width="671" FontFamily="Consolas" />
     </Grid>
 </Window>

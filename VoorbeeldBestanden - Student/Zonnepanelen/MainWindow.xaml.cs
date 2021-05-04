@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 using System.IO;
 using Microsoft.Win32;
 using System.Windows.Threading;
@@ -161,7 +161,7 @@ namespace Zonnepanelen
 
             string seizoenafb = seizoen(DateTime.Today.Month); //huidige datum
 
-            string bestand = System.IO.Path.Combine(@"..\..\Bestanden", seizoenafb);
+            string bestand = Path.Combine(@"..\..\Bestanden", seizoenafb);
             //bepaal of seizoensafb bestaat.
             if (File.Exists(bestand))
             {

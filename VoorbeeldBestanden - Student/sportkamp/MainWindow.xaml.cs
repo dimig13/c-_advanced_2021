@@ -49,6 +49,8 @@ namespace sportkamp
                 {
                     while (!sr.EndOfStream)
                     {
+
+                        //positie van leden sportkamp.
                         string lijn = sr.ReadLine();
 
                         leden.Naam = lijn.Substring(0, 29).Trim();
@@ -57,7 +59,7 @@ namespace sportkamp
                         leden.Kampcode = lijn.Substring(61,3);
                         leden.Kampvolgnr = int.Parse(lijn.Substring(64,1));
 
-                        sbDetail.Append(leden.InformatieVolledig()).AppendLine();
+                        sbDetail.Append(leden.InformatieVolledig()).AppendLine();  // informatievolledig zorgt voor volgorde. 
 
                         //OVERZICHT PER week berekenen.
                         overzichtWeek[leden.Weeknr, 0]++;
@@ -75,8 +77,25 @@ namespace sportkamp
                        
                     }
                 }
-                // AFDRUK txtOverzichtweek .
-                TxtDetails.Text = sbOverzichtWeek.ToString();
+
+
+                // AFDRUK txtDetail .
+                TxtDetails.Text = $"Details van alle leden.\n\n{sbDetail.ToString()}";
+
+                //Afdruk overzicht per week.
+                sbOverzichtWeek.Append("Overzicht per week\n\n");
+                for (int i = 1; i <= overzichtWeek.GetUpperBound(0); i++)
+                {
+                    sbOverzichtWeek.Append($"Week {i} - {overzichtWeek[i, 0]} " +
+                    $"inschrijvingen: {overzichtWeek[i, 1]:c}").AppendLine();
+                }
+                TxtOverzichtWeek.Text = sbOverzichtWeek.ToString();
+             
+             
+
+
+
+
 
                 // AFDRUK txtoverzichtSport.
                 sbOverzichtSport.Append("Overzicht per sporttak \n");

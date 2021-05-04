@@ -16,5 +16,3 @@ C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestan
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\woordenboekoef\obj\Debug\woordenboekoef.exe
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\woordenboekoef\obj\Debug\woordenboekoef.pdb
 C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\woordenboekoef\obj\Debug\woordenboekoef.AboutBox1.resources
-C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\woordenboekoef\obj\Debug\Loginwindow.g.cs
-C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\woordenboekoef\obj\Debug\mainWindow2.g.cs

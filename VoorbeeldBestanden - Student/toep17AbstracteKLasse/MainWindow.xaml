@@ -13,11 +13,11 @@
         <Button x:Name="BtnSaldo" Content="Saldo" HorizontalAlignment="Left" Margin="606,220,0,0" VerticalAlignment="Top" Width="75" Click="BtnSaldo_Click_1"/>
         <Button x:Name="BtnRente" Content="Rente" HorizontalAlignment="Left" Margin="606,275,0,0" VerticalAlignment="Top" Width="75" Click="BtnRente_Click_1"/>
         <Button x:Name="BtnAfsluiten" Content="Afsluiten " HorizontalAlignment="Left" Margin="606,344,0,0" VerticalAlignment="Top" Width="75"/>
-        <StackPanel HorizontalAlignment="Left" Height="100" Margin="62,192,0,0" VerticalAlignment="Top" Width="134">
+        <StackPanel HorizontalAlignment="Left" Height="57" Margin="62,202,0,0" VerticalAlignment="Top" Width="134">
             <Label Content="huidig saldo"/>
             <Label Content="Rente"/>
         </StackPanel>
-        <StackPanel HorizontalAlignment="Left" Height="100" Margin="201,192,0,0" VerticalAlignment="Top" Width="100">
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="201,202,0,0" VerticalAlignment="Top" Width="100">
             <TextBlock x:Name="TxbSaldoZichtrekening" TextWrapping="Wrap" Text=""/>
             <TextBlock x:Name="TxbRenteZichtrekening" TextWrapping="Wrap" Text=""/>
         </StackPanel>
@@ -30,6 +30,6 @@
             <TextBlock x:Name="TxbRenteSpaarrekening" TextWrapping="Wrap" Text=""/>
         </StackPanel>
         <TextBlock x:Name="TxbZichtrekening" HorizontalAlignment="Left" Margin="74,168,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="207"/>
-        <TextBlock x:Name="TxbSpaarrekening" HorizontalAlignment="Left" Margin="62,282,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302"/>
+        <TextBlock x:Name="TxbSpaarrekening" HorizontalAlignment="Left" Margin="62,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302"/>
     </Grid>
 </Window>

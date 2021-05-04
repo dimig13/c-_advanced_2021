@@ -41,7 +41,7 @@ namespace voorbeeldovererving
             System.Windows.MessageBoxButton.OK
             , System.Windows.MessageBoxImage.Information);
         }
-        public override string Gegevens => $"{base.VolledigeNaam()} ­ {Statuut}{Afdeling}";
+        public override string Gegevens => $"{base.VolledigeNaam()} ­ {Statuut} {Afdeling}";
         public string AfdrukIndienst() => $"{base.VolledigeNaam()} is in dienst sinds: {Indienst.ToShortDateString()}";
         public string AfdrukAdres() => $"{base.VolledigeNaam()} {Straat}{Postcode}";
 

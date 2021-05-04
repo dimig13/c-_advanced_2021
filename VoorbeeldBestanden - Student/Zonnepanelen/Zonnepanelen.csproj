@@ -94,11 +94,21 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Bestanden\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="DateTime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Bestanden\winter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Bestanden\zomer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Bestanden\lente.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Bestanden\herfst.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

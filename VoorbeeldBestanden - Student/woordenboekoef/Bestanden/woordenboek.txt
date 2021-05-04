@@ -1,11 +1,8 @@
-﻿memory|geheugen
 file|bestand
-operating system|besturingssysteem
 clipboard|klembord
 hacker|cyberboef
 application|toepassing
 driver|stuurprogramma
-font|lettertype
 pixel|beeldschermpunt
 spamming|e-mailreclame
 RAM|werkgeheugen
@@ -16,3 +13,4 @@ selfie|ikkie
 comment|commentaar
 label|etiket
 database|databank
+label|etiket

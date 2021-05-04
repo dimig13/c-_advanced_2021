@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\bin\Debug\DatasetAuto_toep24.exe.config
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\bin\Debug\DatasetAuto_toep24.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\bin\Debug\DatasetAuto_toep24.pdb
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\DatasetAuto_toep24.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\DatasetAuto_toep24_MarkupCompile.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\DatasetAuto_toep24_MarkupCompile.lref
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\MainWindow.baml
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\DatasetAuto_toep24.g.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\DatasetAuto_toep24.Properties.Resources.resources
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\DatasetAuto_toep24.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\DatasetAuto_toep24.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\DatasetAuto_toep24.exe
+C:\Users\Administrator\source\repos\c#_advanced\c-_advanced_2021\VoorbeeldBestanden - Student\DatasetAuto_toep24\obj\Debug\DatasetAuto_toep24.pdb

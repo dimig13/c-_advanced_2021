@@ -14,30 +14,32 @@
                 <MenuItem x:Name="MnuSluiten" Header= "Afsluiten" Click="MnuSluiten_Click"/>
             </MenuItem>
             <MenuItem x:Name="MnuHelp" Header="Help">
-                <MenuItem x:Name="MnuOver" Header="Over..." Click="MnuOver_Click"/>
+                <MenuItem x:Name="MnuOver" Header="Over..." />
             </MenuItem>
         </Menu>
         <StatusBar DockPanel.Dock="Bottom" Height="30" VerticalAlignment="Top">
             <TextBlock Text=" Ready" FontStyle="Italic" FontSize="12"/>
-            <Image Source="CSharpLogo.png" Margin="10,0,0,0"/>
-            <Image Source="FileFromWeb_6281.png" Margin="5,0,0,0"/>
+
             <TextBlock x:Name="TextBlockUser" Text="Gebruiker: " FontSize="12"/>
             <TextBlock x:Name="TextBlockDatumTijd" Text="Datum en tijd" FontSize="12" Margin="300, 0, 0, 0" FontStyle="Italic"/>
         </StatusBar>
-        <TabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <TabControl x:Name="TbcWoordenboek" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <TabItem x:Name="TabTermen">
                 <TabItem.Header>
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="brief_Case_16xLG.png" />
+
                         <TextBlock Text=" ICT Termen" Foreground="#FF931804" FontStyle="Italic"/>
                     </StackPanel>
                 </TabItem.Header>
                 <Grid Background="#FFFFFFFF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
                     <ListBox x:Name="LbxTermen" HorizontalAlignment="Left" Height="256" Margin="25,22,0,0" VerticalAlignment="Top" Width="309"/>
                     <Label x:Name="LblEngels1" Content="Engelse ICT termen" HorizontalAlignment="Left" Margin="381,22,0,0" VerticalAlignment="Top" Width="192" FontStyle="Italic"/>
-                    <TextBox x:Name="TxtEngels1" HorizontalAlignment="Left" Height="40" Margin="381,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" VerticalScrollBarVisibility="Auto"/>
+                    <TextBox x:Name="TxtEngTerm" HorizontalAlignment="Left" Height="40" Margin="381,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" VerticalScrollBarVisibility="Auto"/>
                     <Label x:Name="LblNederlands1" Content="Nederlandse ICT termen" HorizontalAlignment="Left" Margin="381,111,0,0" VerticalAlignment="Top" Width="192" FontStyle="Italic"/>
-                    <TextBox x:Name="TxtNederlands1" HorizontalAlignment="Left" Height="40" Margin="381,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" VerticalScrollBarVisibility="Auto"/>
+                    <TextBox x:Name="TxtNedTerm" HorizontalAlignment="Left" Height="40" Margin="381,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" VerticalScrollBarVisibility="Auto"/>
                     <Button x:Name="BtnToevoegen" Content="Toevoegen" HorizontalAlignment="Left" Margin="413,202,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnToevoegen_Click"/>
                     <Button x:Name="BtnVerwijderen" Content="Verwijderen" HorizontalAlignment="Left" Margin="413,248,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="BtnVerwijderen_Click"/>
                 </Grid>
@@ -45,15 +47,18 @@
             <TabItem x:Name="TabZoeken">
                 <TabItem.Header>
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="book_Open_16xLG.png" />
+
                         <TextBlock Text=" Zoeken" FontStyle="Italic" Foreground="#FF931804"/>
                     </StackPanel>
                 </TabItem.Header>
                 <Grid Background="#FFFFFFFF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
                     <Label x:Name="LblEngels2" Content="Engelse ICT term" HorizontalAlignment="Left" Margin="52,39,0,0" VerticalAlignment="Top" Width="136" FontStyle="Italic"/>
                     <Label x:Name="LblNederlands2" Content="Nederlandse ICT term" HorizontalAlignment="Left" Margin="52,93,0,0" VerticalAlignment="Top" Width="136" FontStyle="Italic"/>
-                    <TextBox x:Name="TxtEngels2" HorizontalAlignment="Left" Height="23" Margin="223,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
-                    <TextBox x:Name="TxtNederlands2" HorizontalAlignment="Left" Height="23" Margin="223,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+                    <TextBox x:Name="TxtEngels" HorizontalAlignment="Left" Height="23" Margin="223,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+                    <TextBox x:Name="TxtNederlands" HorizontalAlignment="Left" Height="23" Margin="223,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
                     <Button x:Name="BtnZoeken" Content="Zoeken" HorizontalAlignment="Left" Margin="52,140,0,0" VerticalAlignment="Top" Width="136" Height="30" Click="BtnZoeken_Click"/>
                     <Button x:Name="BtnControle" Content="Controle" HorizontalAlignment="Left" Margin="250,140,0,0" VerticalAlignment="Top" Width="133" Height="30" Click="BtnControle_Click"/>
                 </Grid>
